@@ -1,5 +1,7 @@
 # Algorithms
 
+The purpose of this repo is to learn about algorithms and data structures from home.
+
 ## Binary Search
 
 ### What is Binary Search?
@@ -34,3 +36,21 @@ For comparisons, each iteration of the outer loop selects a single element, and 
 For swaps, each swap exchanges two elements, and the number of swaps depends on the number of times the smallest element is found in the inner loop. If the smallest element is already in its correct position, no swap is needed. Therefore, the total number of swaps is at most n-1. This happens when the input array is in reverse order and the algorithm performs a swap for each comparison.
 
 Note that the number of comparisons and swaps may vary depending on the input array, but the worst-case scenario gives an upper bound on the number of operations that the algorithm will perform.
+
+## Data Structures
+
+- Lists:
+  - Arrays
+  - Linked Lists (Singly Linked Lists, Doubly Linked Lists)
+- Stack
+- Queue
+- Hash tables
+- Trees:
+  - Binary Tree
+  - Segment Tree
+- Heap
+- Graph
+
+### Queue
+
+Task: Implement a _Queue_ using TDD.
