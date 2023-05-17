@@ -54,3 +54,10 @@ Note that the number of comparisons and swaps may vary depending on the input ar
 ### Queue
 
 Task: Implement a _Queue_ using TDD.
+
+## Algorithms
+
+The A in DSA
+
+It is a very good practice to be able to visualize the problem, discuss it with boxes,
+and arrows, and then program it.
