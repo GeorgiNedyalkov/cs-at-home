@@ -1,30 +1,4 @@
-class Queue {
-  constructor() {
-    this.items = [];
-  }
-
-  enqueue(item) {
-    this.items.push(item);
-  }
-
-  dequeue() {
-    return this.items.shift();
-  }
-
-  peek() {
-    return this.items[0];
-  }
-
-  isEmpty() {
-    return this.items.length === 0;
-  }
-
-  print() {
-    for (let item of this.items) {
-      console.log(item);
-    }
-  }
-}
+const Queue = require("../Queue");
 
 const queue = new Queue();
 
@@ -59,6 +33,16 @@ describe("queue", () => {
     let firstOut = queue.dequeue();
 
     expect(firstOut).toBe("A");
+  });
+
+  it("should print the queue", () => {
+    queue.enqueue("A");
+    queue.enqueue("B");
+    queue.enqueue("C");
+
+    let printedQue = queue.print();
+
+    expect(printedQue).toBe("A\nB\nC\n");
   });
 });
 
