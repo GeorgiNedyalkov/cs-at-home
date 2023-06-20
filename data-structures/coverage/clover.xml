@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1687239486220" clover="3.2.0">
-  <project timestamp="1687239486220" name="All files">
-    <metrics statements="26" coveredstatements="26" conditionals="2" coveredconditionals="2" methods="11" coveredmethods="11" elements="39" coveredelements="39" complexity="0" loc="26" ncloc="26" packages="1" files="3" classes="3"/>
+<coverage generated="1687242910204" clover="3.2.0">
+  <project timestamp="1687242910204" name="All files">
+    <metrics statements="51" coveredstatements="51" conditionals="18" coveredconditionals="18" methods="13" coveredmethods="13" elements="82" coveredelements="82" complexity="0" loc="51" ncloc="51" packages="1" files="3" classes="3"/>
     <file name="Queue.js" path="D:\code\cs-at-home\data-structures\Queue.js">
       <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <line num="3" count="5" type="stmt"/>
@@ -29,13 +29,38 @@
       <line num="26" count="1" type="stmt"/>
     </file>
     <file name="recursion.js" path="D:\code\cs-at-home\data-structures\recursion.js">
-      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="3" count="20" type="cond" truecount="2" falsecount="0"/>
-      <line num="4" count="2" type="stmt"/>
-      <line num="8" count="18" type="stmt"/>
-      <line num="13" count="18" type="stmt"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="18" count="1" type="stmt"/>
+      <metrics statements="31" coveredstatements="31" conditionals="18" coveredconditionals="18" methods="3" coveredmethods="3"/>
+      <line num="3" count="10" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="7" count="9" type="stmt"/>
+      <line num="10" count="9" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="23" count="196" type="cond" truecount="2" falsecount="0"/>
+      <line num="29" count="2" type="stmt"/>
+      <line num="33" count="194" type="cond" truecount="2" falsecount="0"/>
+      <line num="34" count="60" type="stmt"/>
+      <line num="38" count="134" type="cond" truecount="4" falsecount="0"/>
+      <line num="39" count="2" type="stmt"/>
+      <line num="40" count="2" type="stmt"/>
+      <line num="44" count="132" type="cond" truecount="2" falsecount="0"/>
+      <line num="45" count="70" type="stmt"/>
+      <line num="50" count="62" type="stmt"/>
+      <line num="51" count="62" type="stmt"/>
+      <line num="53" count="62" type="stmt"/>
+      <line num="55" count="194" type="stmt"/>
+      <line num="56" count="194" type="cond" truecount="2" falsecount="0"/>
+      <line num="69" count="28" type="stmt"/>
+      <line num="74" count="34" type="stmt"/>
+      <line num="76" count="34" type="stmt"/>
+      <line num="80" count="2" type="stmt"/>
+      <line num="81" count="2" type="stmt"/>
+      <line num="84" count="2" type="stmt"/>
+      <line num="85" count="12" type="stmt"/>
+      <line num="88" count="2" type="stmt"/>
+      <line num="90" count="2" type="stmt"/>
+      <line num="93" count="1" type="stmt"/>
+      <line num="102" count="1" type="stmt"/>
+      <line num="104" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
