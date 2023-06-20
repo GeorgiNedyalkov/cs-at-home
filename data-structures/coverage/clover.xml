@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1687242910204" clover="3.2.0">
-  <project timestamp="1687242910204" name="All files">
-    <metrics statements="51" coveredstatements="51" conditionals="18" coveredconditionals="18" methods="13" coveredmethods="13" elements="82" coveredelements="82" complexity="0" loc="51" ncloc="51" packages="1" files="3" classes="3"/>
+<coverage generated="1687247157580" clover="3.2.0">
+  <project timestamp="1687247157580" name="All files">
+    <metrics statements="71" coveredstatements="71" conditionals="24" coveredconditionals="24" methods="25" coveredmethods="18" elements="120" coveredelements="113" complexity="0" loc="71" ncloc="71" packages="1" files="4" classes="4"/>
     <file name="Queue.js" path="D:\code\cs-at-home\data-structures\Queue.js">
       <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
       <line num="3" count="5" type="stmt"/>
@@ -27,6 +27,29 @@
       <line num="20" count="1" type="stmt"/>
       <line num="22" count="1" type="stmt"/>
       <line num="26" count="1" type="stmt"/>
+    </file>
+    <file name="quickSort.js" path="D:\code\cs-at-home\data-structures\quickSort.js">
+      <metrics statements="20" coveredstatements="20" conditionals="6" coveredconditionals="6" methods="12" coveredmethods="5"/>
+      <line num="2" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="9" count="4" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="17" count="4" type="stmt"/>
+      <line num="18" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="6" type="stmt"/>
+      <line num="20" count="6" type="stmt"/>
+      <line num="21" count="6" type="stmt"/>
+      <line num="22" count="6" type="stmt"/>
+      <line num="26" count="4" type="stmt"/>
+      <line num="27" count="4" type="stmt"/>
+      <line num="28" count="4" type="stmt"/>
+      <line num="30" count="4" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+      <line num="37" count="1" type="stmt"/>
+      <line num="44" count="1" type="cond" truecount="2" falsecount="0"/>
     </file>
     <file name="recursion.js" path="D:\code\cs-at-home\data-structures\recursion.js">
       <metrics statements="31" coveredstatements="31" conditionals="18" coveredconditionals="18" methods="3" coveredmethods="3"/>
