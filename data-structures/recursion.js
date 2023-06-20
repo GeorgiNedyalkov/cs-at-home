@@ -4,7 +4,17 @@ function recusiveSum(n) {
     return 1;
   }
 
-  return n + recusiveSum(n - 1);
+  // pre recursion
+  let out = n + recusiveSum(n - 1);
+
+  // post recursion
+  //   console.log(out);
+
+  return out;
 }
 
-console.log(recusiveSum(10));
+recusiveSum(10);
+
+module.exports = {
+  recusiveSum,
+};
