@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1687249745988" clover="3.2.0">
-  <project timestamp="1687249745988" name="All files">
+<coverage generated="1687250438010" clover="3.2.0">
+  <project timestamp="1687250438010" name="All files">
     <metrics statements="71" coveredstatements="71" conditionals="24" coveredconditionals="24" methods="25" coveredmethods="18" elements="120" coveredelements="113" complexity="0" loc="71" ncloc="71" packages="1" files="4" classes="4"/>
     <file name="Queue.js" path="D:\code\cs-at-home\data-structures\Queue.js">
       <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
