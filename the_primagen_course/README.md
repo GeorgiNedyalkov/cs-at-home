@@ -37,3 +37,14 @@ K => V
 _Introduction to Algorithms_
 
 _For Programmers Who Don't Know How To DataStructure and Would like to do other things well too_
+
+### Linked Lists
+
+Node based data structure.
+
+- Singly Linked lists
+- Doubly Linked lists
+
+Each node points to the next node.
+
+The first element is called the head.
