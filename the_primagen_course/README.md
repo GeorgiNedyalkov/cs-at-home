@@ -40,6 +40,9 @@ _For Programmers Who Don't Know How To DataStructure and Would like to do other 
 
 ### Linked Lists
 
+Linked Lists are used to store values in containing nodes that we use to create pointers
+from one node to the next or vice versa.
+
 Node based data structure.
 
 - Singly Linked lists
@@ -48,3 +51,25 @@ Node based data structure.
 Each node points to the next node.
 
 The first element is called the head.
+
+#### Linked List Operations
+
+- prepend / append: constant time
+- insertion in the middle: two operations (traversal and insertion). Costly if traversal is costly.
+- deletion from ends: constant time
+- deletion from middle: constant time
+- get head / tail: constnat time
+- get in general: traversal
+
+If we want to get a value, we have to walk the list. There is no indexing.
+
+When we have a defined pointer to head or tail, we can easily get them in a constant time.
+
+Deletion from the front and the end:
+
+- Constant time
+
+Deletion from middle:
+
+- You have to traverse: if the traversal is costly it can be costly.
+- You have to delete
