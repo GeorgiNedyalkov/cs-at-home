@@ -52,7 +52,25 @@ Best performance: O(n)
 
 Wost-case space
 
-### Resources
+## Selection Sort
+
+Selection sort is an **in-place comparison** sorting algorithm.
+
+The algorithm divides the input list into two parts: sorted sublist and unsorted sublist. At the beginning, or the right of the list, are the sorted elements,
+and in the left side are the unsorted elements. Each iteration we find the smallest number and swap it with the leftmost element of the unsorted sublist.
+
+### Analysis
+
+Worst-case performance: O($n^2$) or quadratic time. It is O($n^2$) comparisons and O(n) swaps.
+Average-case performance: O($n^2$) or quadratic time. It is O($n^2$) comparisons and O(n) swaps.
+Best-case performance: O($n^2$), O(1) swap.
+
+Worst-case space complexity: O(1) auxilary.
+
+The algorithm is inefficient in large lists and performs worse than isertion sort.
+When auxilary memory is limited the algorithm has performance advantages and its simpler.
+
+## Resources
 
 -   [Toptal Sorting](https://www.toptal.com/developers/sorting-algorithms)
 -   [Fireship Sorting Algorithms Video](https://www.youtube.com/watch?v=RfXt_qHDEPw&t=337s)
