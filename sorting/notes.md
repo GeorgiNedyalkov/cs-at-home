@@ -70,6 +70,25 @@ Worst-case space complexity: O(1) auxilary.
 The algorithm is inefficient in large lists and performs worse than isertion sort.
 When auxilary memory is limited the algorithm has performance advantages and its simpler.
 
+## Insertion Sort
+
+-   Efficient for small data sets
+-   More efficient than other quadratic algorithms
+-   Adaptive O(kn) time complexity
+-   Stable does not change the relative order of elements with equal keys
+-   In-place: only requires constant amount of O(1) of additional memory space
+-   Online
+
+#### Analysis
+
+Worst-case performance: O($n^2$) comparisons and swaps
+
+Best-case performance: O(n) comparisons, O(1) swaps
+
+Average performance: O($n^2$) comparisons and swaps
+
+Worst-case space complexity O(n), total O(1) auxilary
+
 ## Resources
 
 -   [Toptal Sorting](https://www.toptal.com/developers/sorting-algorithms)

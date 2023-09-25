@@ -1,11 +1,3 @@
-function swap(arr, firstIndex, secondIndex) {
-    let temp = arr[firstIndex];
-    arr[firstIndex] = arr[secondIndex];
-    arr[secondIndex] = temp;
-
-    return arr;
-}
-
 function bubbleSort(arr) {
     // iterate through all elements
     for (let i = 0; i < arr.length; i++) {
@@ -57,3 +49,11 @@ const unsortedArr = [9, 4, 8, 7, 2, 0, 1, 5];
 const sortedArr = insertionSort(unsortedArr);
 
 console.log(sortedArr);
+
+function swap(arr, firstIndex, secondIndex) {
+    let temp = arr[firstIndex];
+    arr[firstIndex] = arr[secondIndex];
+    arr[secondIndex] = temp;
+
+    return arr;
+}
